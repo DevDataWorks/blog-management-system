@@ -2,113 +2,131 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Blog</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Add Blog | Blog Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-- Header -->
+
     <header>
 
-        <h1>➕ Add New Blog</h1>
+        <h1>📝 Blog Management System</h1>
 
-        <p>
-            Fill in the details below to publish a new blog.
-        </p>
-
-        <hr>
+        <p>Create and publish your own blog post.</p>
 
         <nav>
 
-            <a href="index.html"><strong>🏠 Home</strong></a> |
-            <a href="add-blog.html"><strong>➕ Add Blog</strong></a>
+            <a href="index.html">🏠 Home</a>
+
+            <a href="add-blog.html">➕ Add Blog</a>
+
+            <a href="index.html#about">ℹ️ About</a>
+
+            <a href="index.html#contact">📞 Contact</a>
 
         </nav>
 
-        <hr>
-
     </header>
+
+
+    <!-- Main -->
 
     <main>
 
-        <form>
+        <section>
 
-            <h2>📝 Blog Details</h2>
+            <h2 style="text-align: center;">
+                ✍️ Create a New Blog
+            </h2>
 
-            <label><strong>Blog Title</strong></label>
+            <form id="blogForm">
 
-            <br><br>
+                <div class="form-group">
 
-            <input type="text" placeholder="Enter Blog Title" size="50">
+                    <label for="title">
+                        Blog Title
+                    </label>
 
-            <br><br>
+                    <input
+                        type="text"
+                        id="title"
+                        name="title"
+                        placeholder="Enter your blog title"
+                        required
+                    >
 
-            <label><strong>Author Name</strong></label>
+                </div>
 
-            <br><br>
 
-            <input type="text" placeholder="Enter Author Name" size="50">
+                <div class="form-group">
 
-            <br><br>
+                    <label for="author">
+                        Author Name
+                    </label>
 
-            <label><strong>Email Address</strong></label>
+                    <input
+                        type="text"
+                        id="author"
+                        name="author"
+                        placeholder="Enter your name"
+                        required
+                    >
 
-            <br><br>
+                </div>
 
-            <input type="email" placeholder="Enter Email Address" size="50">
 
-            <br><br>
+                <div class="form-group">
 
-            <label><strong>Category</strong></label>
+                    <label for="content">
+                        Blog Content
+                    </label>
 
-            <br><br>
+                    <textarea
+                        id="content"
+                        name="content"
+                        placeholder="Write your blog content here..."
+                        required
+                    ></textarea>
 
-            <select>
+                </div>
 
-                <option>Technology</option>
-                <option>Programming</option>
-                <option>Education</option>
-                <option>AI & ML</option>
-                <option>General</option>
 
-            </select>
+                <button type="submit">
+                    🚀 Publish Blog
+                </button>
 
-            <br><br>
+                <a href="index.html" class="btn">
+                    Cancel
+                </a>
 
-            <label><strong>Publishing Date</strong></label>
+            </form>
 
-            <br><br>
-
-            <input type="date">
-
-            <br><br>
-
-            <label><strong>Blog Content</strong></label>
-
-            <br><br>
-
-            <textarea rows="10" cols="70" placeholder="Write your blog here..."></textarea>
-
-            <br><br>
-
-            <button type="submit">Publish Blog</button>
-
-            <button type="reset">Clear Form</button>
-
-        </form>
+        </section>
 
     </main>
 
-    <hr>
+
+    <!-- Footer -->
 
     <footer>
 
-        <p><strong>© 2026 Blog Management System</strong></p>
+        <p>
+            © 2026 Blog Management System
+        </p>
 
-        <p>Developed by <strong>Dev Rastogi</strong></p>
-
-        <p>Codomax Digital Solutions Full Stack Internship</p>
+        <p>
+            Built during Full Stack Development Internship 🚀
+        </p>
 
     </footer>
 
