@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Add Blog | Blog Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>📝 Blog Management System</h1>
+
+        <p>Create and publish your own blog post.</p>
+
+        <nav>
+
+            <a href="index.html">🏠 Home</a>
+
+            <a href="add-blog.html">➕ Add Blog</a>
+
+            <a href="index.html#about">ℹ️ About</a>
+
+            <a href="index.html#contact">📞 Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <section>
+
+            <h2 style="text-align: center;">
+                ✍️ Create a New Blog
+            </h2>
+
+            <form id="blogForm">
+
+                <!-- Blog Title -->
+
+                <div class="form-group">
+
+                    <label for="title">
+                        Blog Title
+                    </label>
+
+                    <input
+                        type="text"
+                        id="title"
+                        name="title"
+                        placeholder="Enter your blog title"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Author -->
+
+                <div class="form-group">
+
+                    <label for="author">
+                        Author Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="author"
+                        name="author"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Blog Content -->
+
+                <div class="form-group">
+
+                    <label for="content">
+                        Blog Content
+                    </label>
+
+                    <textarea
+                        id="content"
+                        name="content"
+                        placeholder="Write your blog content here..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+
+                <button type="submit">
+                    🚀 Publish Blog
+                </button>
+
+                <a href="index.html" class="btn">
+                    Cancel
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Blog Management System
+        </p>
+
+        <p>
+            Built during Full Stack Development Internship 🚀
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
