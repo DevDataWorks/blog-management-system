@@ -1,57 +1,55 @@
-# Blog Management System
+# 📝 Blog Management System
 
-A simple Blog Management System developed during the **Codomax Digital Solutions Full Stack Development Internship**.
+A simple and responsive Blog Management System developed as part of my **Full Stack Web Development Internship at Codomax Digital Solutions**.
 
-## 🚀 Features
-
-- Home Page
-- Add Blog Page
-- Navigation Bar
-- Footer
-- Semantic HTML Structure
-- Express.js Server Setup
-
-## 🛠 Technologies Used
-
-- HTML5
-- Node.js
-- Express.js
-- Git
-- GitHub
-
-## 📁 Project Structure
-
-```
-blog-management-system/
-│── index.html
-│── add-blog.html
-│── server.js
-│── package.json
-│── package-lock.json
-│── .gitignore
-│── README.md
-```
-
-## ▶️ Run the Project
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the server:
-
-```bash
-node server.js
-```
-
-Open:
-
-```
-http://localhost:3000
-```
+The project is being developed step-by-step while learning frontend development, backend development, REST APIs, CRUD operations, Git, and deployment.
 
 ---
 
-Developed by **Dev Rastogi** as part of the Codomax Full Stack Development Internship.
+## 🚀 Project Overview
+
+The Blog Management System allows users to:
+
+- 🏠 View blog posts
+- ✍️ Create new blog posts
+- 📖 Read blog content
+- ✏️ Edit existing blogs
+- 🗑️ Delete blog posts
+- 🔌 Communicate with backend APIs
+- 📱 Use the application on desktop and mobile devices
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+
+### Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Postman
+
+---
+
+## 📂 Project Structure
+
+```text
+blog-management-system/
+│
+├── node_modules/
+├── .gitignore
+├── add-blog.html
+├── index.html
+├── style.css
+├── server.js
+├── package.json
+├── package-lock.json
+└── README.md
